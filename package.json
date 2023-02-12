@@ -1,0 +1,14 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS='--experimental-vm-modules --experimental-specifier-resolution=node' jest"
+  },
+  "devDependencies": {
+    "tap": "^16.3.4"
+  },
+  "dependencies": {
+    "jest": "^29.4.2"
+  }
+}
