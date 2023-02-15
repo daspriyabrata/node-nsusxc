@@ -11,7 +11,6 @@ describe('BurritoRestaurant', () => {
     'sweet',
   ]);
   test('Get Details', () => {
-    // const name = burrito.getName();
     expect(BurritoRest.getName()).toBe("Vinny's");
     expect(BurritoRest.getLocation()).toBe('NY');
     expect(BurritoRest.getMenu()).toContain('spicy');
